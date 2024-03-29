@@ -1,7 +1,5 @@
 import { EventEmitter } from './utils/EventEmitter.js'
 import { createObservableProxy } from './utils/ObservableProxy.js'
-
-
 import { Player } from '../app/models/playerModel.js'
 
 class ObservableAppState extends EventEmitter {
